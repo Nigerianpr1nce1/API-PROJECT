@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.cards{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+.card{
+    width: 400px;
+    height: 400px;
+    background-color: #f5deb3;
+    border: solid 2px;
+}
+.icon{  
+height: 20px;
+}
